@@ -37,7 +37,7 @@ describe('Quiz Component', () => {
 
     // Answer questions
     cy.get('button').contains('1').click();
-
+//
     // Restart the quiz
     cy.get('button').contains('Take New Quiz').click();
 
